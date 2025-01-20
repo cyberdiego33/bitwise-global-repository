@@ -1,0 +1,127 @@
+:root {
+    --button-bc: rgba(255, 255, 255, 40%);
+    --all-icons-bc: #4a90e2;
+    --text-secondary: #d1d9e6; /* Light grey text */
+}
+
+body {
+    /* 3. Add accessible line-height */
+    line-height: 1;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Animation to slideIn used for h1, icon and paragraph in hero sectio */
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+    /* Animation for button */
+@keyframes bounce {
+    0% {
+        transform: translateY(-15px);
+    }
+    30% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+    /* Animation for infinite float up & down */
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+
+
+.home-page-container {
+    /* background-color: #3a4c6e; */
+    background: url(/static/images/hero-section-image.jpg) no-repeat center center/cover;
+    padding: 4rem 3rem 6rem;
+}
+
+.text-content {
+    margin-right: auto;
+}
+.text-content h1 {
+    font-size: clamp(24px, 4vw, 100px);
+    color: var(--text-secondary);
+    animation: slideInLeft 2s ease 0s forwards;
+}
+.text-content p {
+    margin: 2em 0;
+    max-width: 70vw;
+    animation: slideInLeft 1s ease 1s forwards;
+}
+.text-content a button {
+    background-color: var(--button-bc);
+    padding: .7em 1.25em;
+    outline: none;
+    border: #fff solid 2px;
+    animation: bounce 2s 2s;
+    transition: all 1s ease;
+}
+.text-content a button:hover {
+    cursor: pointer;
+    background-color: red;
+    border: red;
+    color: #fff;
+}
+.all-icons {
+    max-width: 700px;
+    margin: 6em 0 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: var(--all-icons-bc); */
+    border-radius: 20px;
+    animation: slideInLeft 1s ease 3s forwards;
+}
+.icon-container {
+    animation: floating 3s 4s infinite;
+}
+.icon-container img {
+    width: 50px;
+    margin: 0 auto;
+}
+@media (max-width: 700px) {
+    .home-page-container{
+        padding: 3em 3em;
+    }
+    .all-icons {
+        max-width: 434px;
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+    .icon-container {
+        margin: 0 10px;
+    }
+    .icon-container img {
+        width: 35px;
+    }
+}
+@media (max-width: 500px) {
+    .home-page-container {
+        padding: 3rem 2rem;
+    }
+    .icon-container span {
+        font-size: 13px;
+    }
+}

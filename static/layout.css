@@ -23,6 +23,7 @@
     /* color: var(--text-primary); */
   }
   html {
+    max-width: 100vw;
     font-family: Poppins, sans-serif;
     font-size: 18px;
   }
@@ -31,6 +32,7 @@
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
 
   /* 5. Improve media defaults */
@@ -53,8 +55,8 @@
 
 header {
   position: sticky;
+  top: 0;
   z-index: 10;
-  height: 102px;
   color: var(--text-primary);
 }
 
@@ -198,5 +200,10 @@ main {
   }
   #mobile-navigation {
     display: block;
+  }
+  
+}@media (max-width: 450px) {
+  .mobile-div {
+    padding: .5em 1em;
   }
 }

@@ -1,6 +1,45 @@
 {% extends "layout.html" %}
 
+{% block styling %}
+   <link rel="stylesheet" href="/static/index-homepage.css">
+{% endblock %}
+
 {% block Main %}
-   <h1>work in progress</h1>
-   <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos laborum iste eveniet. Rerum repudiandae maiores ex ab tempore in officia, repellendus vel, placeat ipsum facilis cumque dicta quis possimus.</h3>
+<section>
+   <div class="home-page-container">
+      <!-- <img src="/static/images/hero-section-image.jpg" alt="Hero section and image " > -->
+      <div class="text-content">
+         <h1>
+            Best secure <br> investment plan
+         </h1>
+         <p>
+            Navigating the world of blockchain <br>
+            In our digital world, trust, security, and efficiency are vital. <br> Enter blockchain
+            technology, the game-changer.
+         </p>
+         <a href="/signup">
+            <button>GET STARTED</button>
+         </a>
+      </div>
+      <div class="all-icons">
+         <div class="icon-container">
+            <img src="/static/icons/texted.png" alt="tested icon">
+            <span>Tested</span>
+         </div>
+         <div class="icon-container">
+            <img src="/static/icons/shield.png" alt="secure">
+            <span>Secure&safe</span>
+         </div>
+         <div class="icon-container">
+            <img src="/static/icons/trustworthy.png" alt="trustworthy">
+            <span>Trustworthy</span>
+         </div>
+         <div class="icon-container">
+            <img src="/static/icons/safeguarding.png" alt="optimised">
+            <span>Optimised</span>
+         </div>
+      </div>
+   </div>
+</section>
+
 {% endblock %}
