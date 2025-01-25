@@ -27,6 +27,7 @@
   }
   body {
     height: 100vh;
+    background: url(/static/images/login-signup.jpg) no-repeat center center/cover;
     background-color: var(--background-section);
     display: flex;
     justify-content: center;

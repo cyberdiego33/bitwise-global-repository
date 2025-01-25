@@ -5,41 +5,403 @@
 {% endblock %}
 
 {% block Main %}
+
+<!-- HERO SECTION -->
 <section>
    <div class="home-page-container">
       <!-- <img src="/static/images/hero-section-image.jpg" alt="Hero section and image " > -->
       <div class="text-content">
-         <h1>
+         <h1 class="appear-animation">       
             Best secure <br> investment plan
          </h1>
-         <p>
+         <p class="appear-animation">
             Navigating the world of blockchain <br>
             In our digital world, trust, security, and efficiency are vital. <br> Enter blockchain
             technology, the game-changer.
          </p>
          <a href="/signup">
-            <button>GET STARTED</button>
+            <button class="btn">GET STARTED</button>
          </a>
       </div>
-      <div class="all-icons">
+
+      <div class="all-icons appear-animation">
          <div class="icon-container">
-            <img src="/static/icons/texted.png" alt="tested icon">
+            <img src="/static/icons/hero-section-icons/texted.png" alt="tested icon">
             <span>Tested</span>
          </div>
          <div class="icon-container">
-            <img src="/static/icons/shield.png" alt="secure">
+            <img src="/static/icons/hero-section-icons/shield.png" alt="secure">
             <span>Secure&safe</span>
          </div>
          <div class="icon-container">
-            <img src="/static/icons/trustworthy.png" alt="trustworthy">
+            <img src="/static/icons/hero-section-icons/trustworthy.png" alt="trustworthy">
             <span>Trustworthy</span>
          </div>
          <div class="icon-container">
-            <img src="/static/icons/safeguarding.png" alt="optimised">
+            <img src="/static/icons/hero-section-icons/safeguarding.png" alt="optimised">
             <span>Optimised</span>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+
+<!-- ABOUT US -->
+<section>
+   <div class="about-us appear-animation liton-blue-bc">
+      <h1 class="h1-headers">ABOUT US</h1>
+      <div class="about-content">
+         <div class="about-text paragraph">
+            At Bitwise Global, we are more than just a hedge fund—we are a trusted partner in securing your financial future. As a private investment partnership, our mission is to deliver consistent and sustainable returns for our investors while navigating the complexities of global financial markets.
+            <br>
+            <br>
+            Our core expertise lies in conducting high-precision financial transactions on international exchanges. With a strategic approach to risk management and a commitment to delivering guaranteed profits, we empower our investors to achieve their financial goals with confidence.
+            <br>
+            <br>
+            What sets Bitwise Global apart is our exceptional team. Comprised of seasoned traders with over a decade of hands-on experience, our experts are dedicated to maximizing returns through a meticulously crafted portfolio of high-yield assets. By continuously optimizing our strategies and attracting additional capital, we expand opportunities for growth and success.
+            <br>
+            <br>
+            At Bitwise Global, we believe every investor deserves access to the opportunities of the professional exchange market. Join us today and become part of a forward-thinking investment ecosystem where innovation meets reliability.
+            <button class="btn">ABOUT PAGE</button>
+         </div>
+         <div class="about-image">
+            <img src="/static/images/about-page-img/bitcoin-image.png" alt="bitcoin-image">
          </div>
       </div>
    </div>
 </section>
+
+
+<!-- OUR ADVANTAGES -->
+<section>
+   <div class="choose-us liton-blue-bc">
+      <h1 class="h1-headers">OUR ADVANTAGES</h1>
+      <div>
+         <h3 class="h1-headers">WHY CHOOSE US</h3>
+      </div>
+      <div class="reasons-container">
+
+         <div id="safe-secure" class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/security-system.png" alt="safe and secure icon"></div>
+            <span>Safe and Secure</span>
+            <div class="reason-text">
+               We provide security of deposits with world Class security systems against cyber and DDOS-attacks.
+            </div>
+         </div>
+
+         <div id="trading-expertise" class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/trading.png" alt="Trading expertise icon"></div>
+            <span>Trading Expertise</span>
+            <div class="reason-text">
+               Our Trading Experts trade on the Top Cryptocurrencies to maximize profit and provide every investor with stable income even during market stress
+            </div>
+         </div>
+
+         <div id="confidentiality" class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/confidental.png" alt="confidentiality icon"></div>
+            <span>confidentiality</span>
+            <div class="reason-text">
+               Customers records are kept encryted, Personal information of user's account cannot be shared with third parties under any circumstance
+            </div>
+         </div>
+
+         <div class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/help-desk.png" alt="support icon"></div>
+            <span>Technical Support</span>
+            <div class="reason-text">
+               High-quality support is available 24/7. We will answer all your question and give advice
+            </div>
+         </div>
+
+         <div class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/easy.png" alt="User icon"></div>
+            <span>Easy To Use</span>
+            <div class="reason-text">
+               Friendly interface that allows investors Fund, Withdraw and Monitor the progress
+            </div>
+         </div>
+
+         <div class="reason-box">
+            <div class="reason-img"><img src="/static/icons/reasons-icons/ssl-certificate.png" alt="SSL Certificate Icon"></div>
+            <span>Legitimacy</span>
+            <div class="reason-text">
+               BitwiseGlobal.ltd is officially registered in UK and has Certificate. All website transaction are fully secured through the SSL Security protocol
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</section>
+
+
+<!-- Our investment Plans -->
+<section>
+   <div class="investment-plans">
+      <h1 class="h1-headers appear-animation">OUR INVESTMENT PLANS</h1>
+
+      <div class="plans-container">
+
+         <div class="plans-box box-1 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">TRAIL PLAN</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">5 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">3 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">150.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">2000.00<span>USD</span></div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="plans-box box-2 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">STANDARD PLAN</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">7 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">4 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">2000.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">5000.00<span>USD</span></div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="plans-box box-3 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">ADVANCED PLAN</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">9 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">5 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">5000.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">14000.00<span>USD</span></div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="plans-box box-4 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">PREMIUN PLAN</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">15 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">4 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">14000.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">21000.00<span>USD</span></div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="plans-box box-5 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">SHAREHOLDER PLAN</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">25 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">3 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">25000.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">40000.00<span>USD</span></div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="plans-box box-6 appear-animation">
+            <div class="candle-container">
+               <div class="candle-image">
+                  <span class="plan-name">REAL INVESTORS</span>
+               </div>
+            </div>
+            <div class="plans-list">
+               <div class="row-1 rows">
+                  <div class="percentage">
+                     <span class="percent large-text">5 <span>%</span></span>
+                  </div>
+                  <div class="days">
+                     <div class="light-text">AFTER</div>
+                     <span class="bold-text">7 DAYS</span>
+                  </div>
+               </div>
+               <div class="row-2 rows">
+                  <div class="minimum">
+                     <div class="light-text">MINIMUN</div>
+                     <div class="bold-text">30000.00<span>USD</span></div>
+                  </div>
+                  <div class="maximun">
+                     <div class="light-text">MAXIMUN</div>
+                     <div class="bold-text">UNLIMITED</div>
+                  </div>
+               </div>
+               <div class="row-3 rows">
+                  <div>
+                     <div class="deposit-return light-text">DEPOSIT RETURN</div>
+                     <div class="no bold-text">NO</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</section>
+
+
+<!-- Where I want to include crypto market live cap  -->
+<section>
+   <div class="market-cap"></div>
+</section>
+
+
+<!-- Section For affiliate program -->
+<section>
+   <div class="affiliate-block">
+      <h1>AFFILIATE PROGRAM</h1>
+      <div class="affiliate-container">
+         <div class="affiliate-info">
+            <p>We look not only for investors – we also look for partners! The basis of our company is mutually beneficial cooperation at all levels. We created affiliate program that is aimed at additional income. Place your link on social networks, blogs, websites and invite people to our fund. In our turn we will pay you refback for every attracted deposit. If you are active user of social networks – this program is for you.</p>
+            <p>Invest in a platform trusted by thousands to grow and secure your wealth</p>
+            <button>JOIN NOW FOR FREE</button>
+         </div>
+         <div class="affiliate-box-info">
+            <div class="affiliate-boxs">
+               <div class="affiliate-icon"><img src="/static/icons/affiliate-icons/free-to-join.png" alt="Free to join"></div>
+               <div class="affiliate-text">Free to join </div>
+            </div>
+            <div class="affiliate-boxs">
+               <div class="affiliate-icon"><img src="/static/icons/affiliate-icons/unlimited-earnings.png" alt="Unlimited earning"></div>
+               <div class="affiliate-text">Unlimited earnings </div>
+            </div>
+            <div class="affiliate-boxs">
+               <div class="affiliate-icon"><img src="/static/icons/affiliate-icons/dedicated-team.png" alt="Dedicated team"></div>
+               <div class="affiliate-text">Dedicated team </div>
+            </div>
+            <div class="affiliate-boxs">
+               <div class="affiliate-icon"><img src="/static/icons/affiliate-icons/earn-commission.png" alt="commision"></div>
+               <div class="affiliate-text">Earn up to 5% commission</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+
+
 
 {% endblock %}
