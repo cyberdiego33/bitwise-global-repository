@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background-navbar: #212936; /* Navbar background (dark blue) */
+    --background-section: #455564; /* Second section background (medium blue) */
+    --background-light: #f4f6fa; /* Light grey background for sections */
+    --gold: #cbac7c; /* Gold accents */
+    --text-primary: #ffffff; /* White text */
+    --text-secondary: #d1d9e6; /* Light grey text */
+    --button-dark: #2b3e5e; /* Button background */
+    --button-hover: #3a4c6e; /* Button hover effect */
+    --accent-blue: #4a90e2; /* Blue accent color for border */
+    --all-icons-bc: #4a90e2;
+    --investment-h2: #1a253b; /*  for the investment header */
+    --dark-shade: rgba(0, 0, 0, 30%);
+    --hero-overlay: rgba(69, 85, 100, 50%);  /* used for the hero sect of about and investment */
+    --about-overlay: rgba(33, 41, 54, 30%);
+    --body-section: #C2D3DA;
+    --gold-btn: #cbac7c; /* Gold accents */
+    --button-bc: gray;
+    --body-background: #212936;
+    --loblloly: #c3d0d6;
+}

@@ -1,0 +1,27 @@
+@import url("/static/root&fonts.css");
+
+.hero-section {
+    position: relative;
+    width: 100vw;
+}
+.hero-section .bitwise-img {
+    width: 100%;
+    height: auto;
+}
+.overlay-about {
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--hero-overlay);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.text-content h1 {
+    font-size: clamp(16px, 1vw + 1rem, 30px);
+    color: var(--text-secondary);
+    animation: slideInLeft 2s ease 0s forwards;
+    line-height: 1;
+}

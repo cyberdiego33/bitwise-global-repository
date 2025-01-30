@@ -12,7 +12,7 @@ def aboutpage():
 
 @app.route('/servicesPage')   #routing for services page
 def servicesPage():
-    return render_template('services.html')
+    return render_template('investments.html')
 
 @app.route('/contactPage')   #routing for contact Page
 def contactPage():
@@ -27,4 +27,4 @@ def signup():
     return render_template('signup.html')
 
 if __name__ == '__main__':
-    app.run(debug=false, host='0.0.0.0')
+    app.run(debug=True)

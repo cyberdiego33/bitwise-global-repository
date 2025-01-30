@@ -1,5 +1,75 @@
 {% extends "layout.html" %}
 
+{% block styling %}
+   <link rel="stylesheet" href="/static/contact.css">
+{% endblock %}
+
 {% block Main %}
-   work in progress
+   
+
+   <section>
+      <div class="contact-us">
+         <div class="input-container">
+            <h2>Contact Us</h2>
+            <form action="#">
+               <div class="contact-name">
+                  <label for="name"><div class="label-text">First Name</div><input type="text" id="name"></label>
+               </div>
+               <div class="contact-last-name">
+                  <label for="lastname"><div class="label-text">Last Name</div><input type="text" id="lastname"></label>
+               </div>
+               <div class="contact-email">
+                  <label for="email"><div class="label-text">Email Address</div><input type="email" id="email"></label>
+               </div>
+               <div class="contact-phone">
+                  <label for="phone-no"><div class="label-text">Phone Number</div><input type="text" id="phone-no"></label>
+               </div>
+               <div class="text-area">
+                  <label for="message"><div class="label-text">Message</div><textarea name="message" id="text-area" rows="5"></textarea></label>
+               </div>
+            </form>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="frequently">
+         <h2>Frequently Asked Questions</h2>
+         <div class="issues">
+            <div class="issue-box">General</div>
+            <div class="issue-box">Affiliate</div>
+            <div class="issue-box">Investment</div>
+         </div>
+         <div class="questions">
+            <div>
+               <div class="question-container">
+                  <div class="question quest-1">
+                     Where is bitwise located
+                  </div>
+                  <div class="answer ans-1">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, blanditiis.
+                  </div>
+               </div>
+               <div class="question-container">
+                  <div class="question quest-2">How many years has bitwise stayed</div>
+                  <div class="answer ans-2">Lorem ipsum dolor sit amet consectetur.</div>
+               </div>
+               <div class="question-container">
+                  <div class="question quest-3">How many hours would we be able to withdraw our funds</div>
+                  <div class="answer ans-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iste mollitia nihil ea, accusantium beatae quisquam sunt minima ducimus architecto?</div>
+               </div>
+               <div class="question-container">
+                  <div class="question quest-4">How does the affiliate program work</div>
+                  <div class="answer ans-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error assumenda magni? Omnis numquam ipsam provident qui beatae voluptates ratione aspernatur quibusdam. Atque deleniti accusamus in laboriosam esse earum voluptatibus.</div>
+               </div>
+               <div class="question-container">
+                  <div class="question quest-5">Is bitwise a registered company</div>
+                  <div class="answer ans-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, explicabo.</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
 {% endblock %}

@@ -1,0 +1,31 @@
+@import url(/static/root&fonts.css);
+@import url(/static/hero-section-style.css);
+@import url(/static/plans-styling.css);
+
+
+
+.services {
+    padding: 3rem 3rem;
+    background-color: var(--background-navbar);
+    border-top: 3px solid var(--accent-blue);
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-container {
+    width: 300px;
+    flex-grow: 1;
+    margin: 1rem;
+}
+.services-container h1  {
+    color: #fff;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.services-content {
+    padding: 1rem;
+    border: 1px solid var(--accent-blue);
+}
+.services-content h2,
+.services-content p {
+    color: #fff;
+}
